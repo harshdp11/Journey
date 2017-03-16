@@ -1,0 +1,15 @@
+@media only screen and (min-width: 360px) and (max-width: 550px) {
+   .landing-section{
+   		.text{
+   			top: -32vmax;
+   		}
+   }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 900px) {
+   .landing-section{
+   		.text{
+   			top: -50vmax;
+   		}
+   }
+}

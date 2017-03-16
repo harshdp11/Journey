@@ -1,0 +1,652 @@
+$font-stack:'Montserrat','Open Sans', sans-serif;
+
+body{
+
+     overflow-x: hidden; 
+}
+
+.landing-section{	
+	display: block;
+	img{
+		width: 100%;
+		position: relative;
+		display: block;
+	}
+
+	#text{
+		position: relative;
+		text-align: center;
+		top: -48vmax;
+		display: block;
+		h4{
+			display: block;
+			font: 100% $font-stack;
+			font-size: 1.4vmax;
+			margin:0 auto;
+			color: #FC85AE;
+			font-weight: 900;
+			text-align: center;
+		}
+
+		 h1{
+			font: 100% $font-stack;
+			font-size: 6.5vmax;
+			margin:0 auto;
+		 	color: #FFFFFF;
+		 	font-weight: 900;
+		 	margin-bottom: 1.5%;
+		 	text-align: center;
+		 	display: block;		 	  	
+		 }
+
+		  h5{
+			font: 100% $font-stack;
+			font-family: 'Open Sans';
+			font-size: 1.4vmax;
+			margin:0 auto;
+		 	color: #FFFFFF;
+		 	font-weight: 100;		
+		 	text-align: center; 
+		 	margin-bottom: 2%; 	
+		 	opacity: 0.8;
+		 	display: block;
+		 }
+
+		 input{
+		 	font: 100% $font-stack;
+		 	background: #FC85AE;
+		 	border-radius: 50vmax;
+		 	padding: 1.3vmax 2.7vmax;
+		 	border: none;
+		 	font-size: 0.8vmax;
+		 	color: white;
+		 	font-weight: 400;
+		 	letter-spacing: 1px;
+		 	text-align: center ;
+		 	margin:0 auto;
+		 	display:block;
+		 	
+		 }
+	}
+}
+
+#left-card{
+		background: white;
+		width: 41%; 
+		position: relative;
+		display: inline-block;
+		float: left;
+		top: -26vmax;
+
+		.inspire-create-repeat{
+			display: inline-block;
+			float: right;
+			padding-right: 2vmax;
+			margin-bottom: 5vmax;
+			hr{
+				width: 30%;
+				border: none;
+	    		height: 3px;
+	    		color: #FC85AE; 
+			}
+
+			h3{
+				font: 100% $font-stack;
+				position: relative;
+				color: #303952;
+				font-weight: 600;
+				font-size: 1.1vmax;
+				letter-spacing:2px;	
+				width: 50%;	
+
+						
+				
+			}
+		}
+
+		h2{
+			position: relative;
+			padding-right: 2vmax;
+			float: right;
+			width: 60%;
+			font: 100% $font-stack;
+			font-weight: 900;
+			color: #303952;
+			font-size:2.2vmax;
+			letter-spacing: -1px;
+			padding-top: 3vmax;
+		}
+
+		p{
+			position: relative;
+			right: 3vmax;
+			float: right;
+			width: 52%;
+			font: 100% $font-stack;
+			font-family: 'Open Sans';
+			font-weight: 400;
+			color: #adadad;
+			font-size:1.25vmax;
+			line-height:2.0vmax;
+		}
+	}
+
+#right-card{
+		background: #564a91;
+		width: 47%; 
+		position: relative;
+		top: -21vmax;
+		left: 10vmax;
+		display: inline-block;
+
+		ul{		
+			list-style-type: none;
+			padding-left: 8vmax;
+			padding-right: 8vmax;
+			padding-top: 6vmax;
+			padding-bottom: 6vmax;
+			li{
+				margin-bottom: 2vmax;
+				h4{
+					display: inline-block;			
+					font: 100% $font-stack;
+					font-weight: 700;
+					color: #FC85AE;
+					font-size:2.1vmax;
+					letter-spacing: -1px;
+				}
+
+				h3{
+					position: relative;
+					display: inline;			
+					letter-spacing:0.5px;			left: 08%;
+					font: 100% $font-stack;
+					font-weight: 700;
+					color: #FC85AE;
+					font-size:1.4vmax;					
+					width: 30%;
+					line-height: 0.5vmax;
+					margin-left: 0.8vmax;
+				}
+
+				p{
+					position: relative;
+					width: 80%;
+					font: 100% $font-stack;
+					font-family: 'Open Sans';
+					font-weight: 100;
+					color: white;
+					font-size:0.98vmax;			
+					line-height: 1.5vmax;
+					margin-left: 6.5vmax;
+				}
+			}
+		}
+
+
+	img{
+		position: relative;
+		float: left;		
+		width: 20%;
+		top: -60vmax;		
+	}
+}
+
+.grey-card{
+	background: #FAFAFA;
+	width: 96%;
+	left: 2%;
+	position: relative;
+	top: -20vmax;
+
+	.text-one{
+		padding: 9vmax;
+		width: 50%;
+		display: inline-block;
+
+		h3{		
+			font: 100% $font-stack;
+			font-weight: 900;
+			color: #303952;
+			font-size:2.2vmax;
+			letter-spacing: -1px;
+			margin-bottom: 1.5vmax;
+		}
+
+		h6{
+			font: 100% $font-stack;
+			font-family: 'Open Sans';
+			font-weight: .300;
+			color: #999999;
+			font-size:0.98vmax;			
+			line-height: 1.8vmax;
+			margin-bottom: 3vmax;
+		}
+	}
+
+	.text-two{
+		position: absolute;
+		padding-left: 9vmax;
+		top: 18vmax;
+		width: 35%;
+		display: inline-block;
+		z-index: 5;
+		p{
+			font: 100% $font-stack;
+			font-family: 'Open Sans';
+			font-weight: .300;
+			color: #999999;
+			font-size:0.98vmax;			
+			line-height: 1.8vmax;
+			margin-bottom: 3vmax;
+		}
+
+		h4{		
+			font: 100% $font-stack;
+			font-weight: 800;
+			color: #574b90;
+			letter-spacing: -1px;
+			font-size:1.5vmax;
+		}
+	}
+}
+
+#images{
+	width: 100%;
+	top: -26vmax;
+	position: relative;
+	img.one{
+		width: 50%;
+		position: relative;
+		display: inline-block;
+		margin: 0;
+	}
+
+	img.two{
+		width: 49%;
+		position: relative;
+		display: inline-block;
+		left: 1.5vmax;
+		margin: 0;
+		top: -6vmax;
+	}
+
+	img.three{
+		width: 25%;
+		position: relative;
+		display: inline-block;
+		left: 37.54%;
+		top: -15vmax;
+	}	
+
+	.text-one{
+		width: 22%;
+		position: relative;
+		display:inline-block;
+		left: -12vmax;
+		top: -8vmax;
+		h4{			
+			font: 100% $font-stack;
+			font-weight: 800;
+			color: #574b90;
+			letter-spacing: -1px;
+			font-size:1.5vmax;				
+		}
+
+		p{
+			font: 100% $font-stack;
+			font-family: 'Open Sans';
+			font-weight: .300;
+			color: #999999;
+			font-size:0.98vmax;			
+			line-height: 1.8vmax;
+			margin-bottom: 3vmax;
+		}		
+	}
+
+	.text-two{
+		width: 22%;
+		position: relative;
+		display:inline-block;
+		left: 17vmax;
+		top: -16vmax;
+		h4{			
+			font: 100% $font-stack;
+			font-weight: 800;
+			color: #574b90;
+			letter-spacing: -1px;
+			font-size:1.5vmax;				
+		}
+
+		p{
+			font: 100% $font-stack;
+			font-family: 'Open Sans';
+			font-weight: .300;
+			color: #999999;
+			font-size:0.98vmax;			
+			line-height: 1.8vmax;
+			margin-bottom: 3vmax;
+		}		
+	}
+
+	.text-three{
+		width: 22%;
+		position: relative;
+		display:inline-block;
+		left: -5vmax;
+		top: -03vmax;
+
+		h4{			
+			font: 100% $font-stack;
+			font-weight: 800;
+			color: #574b90;
+			letter-spacing: -1px;
+			font-size:1.5vmax;				
+		}
+
+		p{
+			font: 100% $font-stack;
+			font-family: 'Open Sans';
+			font-weight: .300;
+			color: #999999;
+			font-size:0.98vmax;			
+			line-height: 1.8vmax;
+			margin-bottom: 3vmax;
+		}		
+	}
+}
+
+
+
+#humans{
+	top: -30vmax;
+	background: #303952; 
+	position: relative;
+	padding-bottom: 0;
+	
+	h2{ 
+		position: relative;
+		padding-right: 2vmax;
+		font: 100% $font-stack;
+		font-weight: 900;
+		color: white;
+		font-size:2.2vmax;
+		letter-spacing: -1px;
+		text-align: center;
+		padding-top:12vmax;
+	}
+
+	img{
+		width: 45%;
+		display: inline-block;
+		position: relative;
+		padding-right: 15%;
+		left: 12.5%;
+		margin-bottom: 0;
+	}
+
+	img.one{
+		top: -25vmax;
+	}
+	img.two{
+		top: -12vmax;
+	}
+	img.three{
+		top: -25vmax;
+	}
+	img.four{
+		top: -12vmax;
+		margin-bottom: 3vmax;
+	}
+
+	img.five{
+		width: 60%;
+		left: 0;
+		display: block;
+		padding-right: 0;
+		position: absolute;
+		top: 62.5vmax;		
+	}
+
+	img.six{
+		width: 20%;
+		left: 80%;
+		display: block;
+		padding-right: 0;
+		position: absolute;
+		top: 57.5vmax;
+		
+		
+	}
+}
+
+.schedule{
+	position: relative;
+	background: #FAFAFA;
+	width: 96%;
+	margin: 0 auto;
+	top: -28vmax;
+
+	.dates{
+		display: inline-block;
+		margin-top: 8vmax;
+		left: 12vmax;
+		position: relative;
+		h3{
+			position: relative;
+			padding-right: 2vmax;			
+			font: 100% $font-stack;
+			font-weight: 900;
+			color: #303952;
+			font-size:2.2vmax;
+			letter-spacing: -1px;
+			margin-bottom: 4vmax;
+		}
+
+		h4{
+			font: 100% $font-stack;
+			position: relative;
+			color: #303952;
+			font-weight: 600;
+			font-size: 1.1vmax;
+			letter-spacing:2px;	
+			margin-bottom: 1vmax;	
+		}
+	}
+
+	ul{
+		list-style: none;
+		display: inline-block;
+		left: 30%;
+		position: relative;
+		top: -8vmax;
+		li{
+			padding-right:18vmax ;
+			display: inline-block;
+			margin-bottom: 2vmax;
+			position: relative;
+			h2{
+				position: relative;			
+				font: 100% $font-stack;
+				font-weight: 800;
+				color: #574b90;
+				font-size:1.5vmax;
+				letter-spacing: -1px;
+			}
+
+			p{
+				position: relative;
+				font: 100% $font-stack;
+				font-family: 'Open Sans';
+				font-weight: .300;
+				color: #999999;
+				font-size:0.96vmax;						
+				width: 100%;
+			}
+		}
+	}
+}
+
+.img-paint{
+	position: relative;
+	top: -15vmax;
+	img{
+		position: relative;
+		float: left;		
+		width: 20%;
+		top: -8vmax;
+	}
+}
+
+#faq{
+	position: relative;
+	display: block;
+	top: -13vmax;
+
+	img{
+		position: relative;			
+		width: 45%;
+		left: -17vmax;
+		margin-top: 8vmax;
+		z-index: 10;
+	}
+
+	.card{
+		background: #564a91;
+		width: 58%; 
+		position: relative;
+		top: -72vmax;
+		
+		float: right;
+		
+
+		h2{
+			font: 100% $font-stack;
+			color: white;
+			font-size: 2vmax;
+			font-weight: 900;
+			position: relative;
+			padding-left: 28%;
+			padding-top: 9%;
+			padding-bottom: 5%;
+			position: relative;
+		}
+
+		ul{
+			position: relative;
+			list-style: none;
+			padding-bottom: 3vmax;
+			li{
+				position: relative;
+				padding-left: 12%;
+				padding-right: 15%;
+				padding-bottom: 2vmax;
+				h3{
+					position: relative;
+					display: inline;			
+					letter-spacing:0.5px;			left: 08%;
+					font: 100% $font-stack;
+					font-weight: 700;
+					color: #FC85AE;
+					font-size:1.4vmax;					
+					width: 30%;
+					line-height: 0.5vmax;
+					margin-left: 0.8vmax;
+					left: 6vmax;
+				}
+
+				p{
+					position: relative;
+					width: 55%;
+					font: 100% $font-stack;
+					font-family: 'Open Sans';
+					font-weight: 100;
+					color: white;
+					font-size:0.98vmax;			
+					line-height: 1.8vmax;
+					margin-left: 6.8vmax;
+					opacity: 0.9;
+					margin-top: 1vmax;
+				}
+
+			}
+		}
+
+	}
+}
+
+.sponsors{
+	position: relative;
+	background: #FAFAFA;
+	width: 96%;
+	margin-left: 2%;
+	
+	top: -5vmax;
+	h3{
+		position: relative;		
+		font: 100% $font-stack;
+		font-weight: 900;
+		color: #303952;
+		font-size:2.2vmax;
+		letter-spacing: -1px;
+		padding-top: 08vmax;
+		padding-left: 12vmax;
+		margin-bottom: 3vmax;
+		display: block;
+	}
+
+	p{
+		position: relative;
+		width: 100%;
+		font: 100% $font-stack;
+		text-align: center;
+		font-weight: 300;
+		color: #303952;
+		font-size:0.98vmax;			
+		line-height: 1.8vmax;		
+		opacity: 0.9;
+		margin-bottom: 3vmax;	
+	}
+
+	input{
+		font: 100% $font-stack;
+		 background: #FC85AE;
+		 border-radius: 50vmax;
+		 padding: 1.3vmax 2.7vmax;
+		 border: none;
+		 font-size: 0.8vmax;
+		 color: white;
+		 font-weight: 400;
+		 letter-spacing: 1px;
+		 
+		 left: 41.8%;
+	
+		 margin-bottom: 10%;
+		 position: relative;
+	}
+}
+
+.footer{
+	background: #303952;
+	position: static;
+	top: -18vmax;
+	margin: 0;
+
+
+	img.logo{
+		width:15%;
+		left: 42.5%;
+		position: relative;
+		padding-top: 5vmax;
+		padding-bottom: 30vmax;
+
+	}
+
+	img.extra{
+		width:32%;
+		left: 34%;
+		position: relative;
+		padding: 8vmax;
+		padding-bottom: 20vmax;
+	}
+}
